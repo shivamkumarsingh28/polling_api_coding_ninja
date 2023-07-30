@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const url = "mongodb://0.0.0.0:27017/polling-api"; // mongoodb url
+const url ='mongodb+srv://shiva850681:Kaliya8506@cluster0.cro6kwk.mongodb.net/?retryWrites=true&w=majority' // mongoodb url
 mongoose.connect(url); // connecting to db
 
 const db = mongoose.connection; // getting connection of db
